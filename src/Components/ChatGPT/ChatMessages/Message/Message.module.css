@@ -1,0 +1,130 @@
+.messageBody {
+    width: 90%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+.messageWrapperOwner {
+    max-width: 100%;
+    word-break: break-all;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius:10px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    background: linear-gradient(145deg, #575100, #353000);
+}
+
+.messageWrapper {
+    max-width: 100%;
+    flex-direction: column;
+    word-break: break-all;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius:10px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    background: linear-gradient(145deg, #003b57, #002335);
+}
+
+.message{
+    min-width: 100%;
+    text-align: start;
+    font-size: 16px;
+    color: white;
+    padding: 8px 8px;
+}
+
+.messageArrowOwner {
+    width: 25px;
+    height: 45px;
+    position: absolute;
+    left: -20px;
+    top: 30px;
+    background: url('../../../../Assets/message-icons/arrow1.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    transform: rotate(-13deg);
+}
+
+.messageArrow {
+    width: 25px;
+    height: 45px;
+    position: absolute;
+    left: -20px;
+    top: 30px;
+    background: url('../../../../Assets/message-icons/arrow2.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    transform: rotate(-13deg);
+}
+
+
+.userIconWrapper {
+    width:100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    position: relative;
+    margin-top: 20px;
+    
+}
+
+.userIcon{
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+}
+
+.userName {
+    color: rgb(255, 255, 255);
+    position: absolute;
+    margin-bottom: 65px;
+
+        text-transform: uppercase;
+        font-family: verdana;
+        font-size: 14px;
+        font-weight: 700;
+        color: #f5f5f5;
+}
+
+.date{
+    color:rgba(255, 255, 255, 0.507);
+    font-size: 14px;
+}
+
+.speechWrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    border-top: 1px solid #f5f5f5;
+}
+
+
+
+.speechWrapper span button {
+    width: 35px;
+    height: 35px;
+    margin: 7px;
+    border-radius: 50px !important;
+    background-color: rgba(255, 255, 255, 0.514) !important;
+}
+
+
+
+
+  
+  
+
+
+
+
+

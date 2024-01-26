@@ -1,0 +1,116 @@
+.micON {
+  color: #fff;
+}
+.micON::before, .micON::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 100%;
+  z-index: 2;
+  box-shadow: 0 0 5px 5px #810000;
+}
+.micON::before {
+  width: 50px;
+  height: 50px;
+  background-color: #ff1919;
+}
+.micON::after {
+  width: 45px;
+  height: 45px;
+  background-color: #000000;
+  animation: circle-size 0.6s linear infinite alternate;
+}
+
+.micOFF {
+    color: #fff;
+}
+
+.micOFF::before,
+.micOFF::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 100%;
+    z-index: 2;
+}
+
+.micOFF::before {
+    width: 50px;
+    height: 50px;
+    background-color: #ffffff4f;
+}
+
+.micOFF::after {
+    width: 47px;
+    height: 47px;
+    background-color: #000000;
+}
+.micIcon {
+  box-sizing: border-box;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) scale(1);
+  display: block;
+  width: 30px;
+  height: 30px;
+  border-top: 0;
+  z-index: 3;
+}
+/* .micIcon::before, .micIcon::after {
+  content: "";
+  display: block;
+  box-sizing: border-box;
+  position: absolute;
+} */
+/* .micIcon::before {
+  width: 2px;
+  height: 5px;
+  top: calc(100% + 1px);
+  left: 50%;
+  transform: translate(-50%, 0);
+  background-color: #fff;
+} */
+/* .micIcon::after {
+  border: 2px solid;
+  width: 50px;
+  height: 50px;
+  left: 50%;
+  top: -10px;
+  border-radius: 4px;
+  transform: translate(-50%, 0);
+} */
+/* .micShadow {
+  width: 70px;
+  height: 70px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  border-radius: 100%;
+  z-index: 1;
+  box-shadow: 2px -2px 2px 2px #ff605a, 3px -3px 3px 3px #ff8c8c, -4px -4px 4px 4px #ff1010;
+  animation: shadow-rotate 1.5s linear infinite;
+  transform-origin: center;
+} */
+@keyframes circle-size {
+  from {
+    width: 35px;
+    height: 35px;
+  }
+  to {
+    width: 50px;
+    height: 50px;
+  }
+}
+/* @keyframes shadow-rotate {
+  from {
+    transform: translate(-50%, -50%) rotate(0deg);
+  }
+  to {
+    transform: translate(-50%, -50%) rotate(360deg);
+  }
+} */
