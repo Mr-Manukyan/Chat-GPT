@@ -1,8 +1,10 @@
 import axios from 'axios'
 import { messages } from '../Dialog-context';
 
-const apiKey = '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';
+const apiKey = "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"
 const endpoint = 'https://api.openai.com/v1/chat/completions';
+
+
 
 export const chatGptAPI = {
 
